@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#52c3a8</color>
+    <color name="backgroundColor">#30444d</color>
+    <color name="backgroundColorAdditional">#22353c</color>
+    <color name="pacColor">#22353c</color>
+    <color name="backgroundColorAdditional2">#F9F9F9</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColorAdditional">#DFDFDF</color>
+    <color name="wheelSelectedTxtClr">#000000</color>
+    <color name="wheelTxtClr">#CCD6D6D6</color>
+    <color name="wheelViewTxtClr">@android:color/white</color>
+    <color name="smallTxtClr">#D5FFFFFF</color>
+
+
+</resources>
