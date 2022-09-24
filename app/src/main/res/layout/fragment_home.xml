@@ -164,6 +164,7 @@
                         android:layout_centerVertical="true"
                         android:clipToPadding="true"
                         android:paddingStart="32dp"
+                        tools:listitem="@layout/weight_picker_item_layout"
                         android:paddingEnd="32dp"
                         android:textSize="15sp"
                         app:layout_constraintBottom_toBottomOf="parent"
