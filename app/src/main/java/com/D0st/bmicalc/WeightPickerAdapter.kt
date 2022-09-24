@@ -12,8 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 class WeightPickerAdapter(private val context: Context, private var dataList: List<String>, private val recyclerView: RecyclerView) :
     RecyclerView.Adapter<WeightPickerAdapter.TextVH>() {
 
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TextVH {
         val view: View
         val inflater = LayoutInflater.from(context)

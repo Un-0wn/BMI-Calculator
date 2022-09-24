@@ -9,15 +9,12 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.setPadding
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
-import com.D0st.bmicalc.databinding.FragmentSecondBinding
+import com.D0st.bmicalc.databinding.FragmentResultBinding
 
-/**
- * A simple [Fragment] subclass as the second destination in the navigation.
- */
-class SecondFragment : Fragment(R.layout.fragment_second) {
+class ResultFragment : Fragment(R.layout.fragment_result) {
 
-    private val binding by viewBinding(FragmentSecondBinding::bind)
-    private val args: SecondFragmentArgs by navArgs()
+    private val binding by viewBinding(FragmentResultBinding::bind)
+    private val args: ResultFragmentArgs by navArgs()
 
     private var weight: Double = 1.0
     private var height: Double = 1.0

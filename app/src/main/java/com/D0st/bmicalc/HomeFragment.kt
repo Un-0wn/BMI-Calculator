@@ -6,19 +6,18 @@ import android.os.Handler
 import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.SnapHelper
-import com.D0st.bmicalc.databinding.FragmentFirstBinding
+import com.D0st.bmicalc.databinding.FragmentHomeBinding
 import com.cncoderx.wheelview.OnWheelChangedListener
 
 import travel.ithaka.android.horizontalpickerlib.PickerLayoutManager
 
 
-class FirstFragment : Fragment(R.layout.fragment_first) {
+class HomeFragment : Fragment(R.layout.fragment_home) {
 
-    private val binding by viewBinding(FragmentFirstBinding::bind)
+    private val binding by viewBinding(FragmentHomeBinding::bind)
 
     private lateinit var weightAdapter: WeightPickerAdapter
     private var gender = 'M'
@@ -127,7 +126,7 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
 
     private fun gotoSecond () {
 
-        val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(
+        val action = HomeFragmentDirections.actionFirstFragmentToSecondFragment(
             weight = weight,
             height = height,
             gender = if (gender == 'M') {
